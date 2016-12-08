@@ -471,6 +471,12 @@ body
 	margin-left: 1em;
 }
 
+.gplayBtn
+{
+	width:13em;
+	height:4em;
+}
+
 .viewBtn2
 {
 	text-align: center;
@@ -939,6 +945,12 @@ body
 		width:30%;
 	}
 
+	.gplayBtn
+	{
+		width: 12.5em;
+		height: 3.8em;
+	}
+
 	/* cv */
 
 	.cvDiv
@@ -1067,7 +1079,7 @@ body
 
 	.titleIndex2
 	{
-		margin-right: 5.5em;
+		margin-right: 6.2em;
 		font-size: 7.5em;
 	}
 
@@ -1102,6 +1114,12 @@ body
 		padding-top: 5%;
 		padding-left: 5%;
 		width:30%;
+	}
+
+	.gplayBtn
+	{
+		width: 12em;
+		height: 3.5em;
 	}
 
 	/* cv */
@@ -1418,6 +1436,12 @@ body
 		float:none;
 		width: 100%;
 		height:55%;
+	}
+
+	.gplayBtn
+	{
+		width: 10em;
+		height: 3em;
 	}
 
 	/* end of sc2 */
@@ -1821,7 +1845,7 @@ body
 
 	.cvImg
 	{
-		height: 80%;
+		height: 90%;
 		width: 100%;
 	}
 
@@ -1914,7 +1938,7 @@ body
 
 	.additionContact
 	{
-		padding-top: 25%;
+		padding-top: 20%;
 	}
 
 	.contact
@@ -2611,6 +2635,12 @@ body
 		width: 100%;
 		height:30%;
 		margin-top: 2em;
+	}
+
+	.gplayBtn
+	{
+		width: 8.5em;
+		height: 2.7em;
 	}
 
 	/* end of sc2 */
