@@ -1,0 +1,2908 @@
+/* Timothy Alfares CSS File */
+
+/* general thing */
+
+body
+{
+	margin:0px;
+	
+}
+
+.body
+{
+	overflow: hidden;
+}
+
+.clear
+{
+	clear:both;
+}
+
+/* navbar */
+
+.navbar
+{
+	width:100%;
+	height:4.5em;
+	transition: all 1s ease 0s;
+	position: fixed;
+	z-index: 1;
+}
+
+.navbar:hover
+{
+	background-color: rgba(0,0,0,0.7);
+}
+
+.menuImg
+{
+	width:3.5em;
+	height:3.5em;
+}
+
+.menubar
+{
+	text-align: right;
+	width:100%;
+	display: none;
+}
+
+.menu
+{
+	display: none;
+}
+
+.navbar:hover .anav
+{
+	color:#FFF;
+}
+
+.padnav
+{
+	padding-top: 0.8em;
+	padding-right: 3em;
+	padding-bottom: 0.8em;
+}
+
+.linav
+{
+	padding-right: 2.5em;
+	float:right;
+	font-family: montserrat;
+	font-size: 0.9em;
+}
+
+.limenu
+{
+	font-family: montserrat;
+	font-size: 0.9em;
+	text-align: center;
+	height:80%;
+	background-color: rgba(0,0,0,0.7);
+}
+
+.amenu
+{
+	list-style:none;
+	color:#CFCFCF;
+	text-decoration: none;
+	transition: all 1s ease 0s;
+	padding-bottom: 6px;
+}
+
+.active
+{
+	color:#FFE741 !important;
+}
+
+.anav
+{
+	list-style:none;
+	color:#CFCFCF;
+	text-decoration: none;
+	transition: all 1s ease 0s;
+	padding-bottom: 6px;
+}
+
+.ulnav
+{
+	list-style:none;
+}
+
+.anav:hover
+{
+	color:#FFE741 !important;
+	border-bottom: 1px solid #FFE741 ;	
+}
+
+.bulletNav
+{
+	float:right;
+	margin-top: 22%;
+	margin-right: 6%;
+
+}
+
+.bullet
+{
+	list-style: none;
+	position: fixed;
+	z-index: 1;
+}
+
+.liBullet
+{
+	width:9px;
+	height:9px;
+	margin:7px;	
+	margin-bottom: 0.9em;
+	border-radius: 50%;
+}
+
+.aBullet
+{	
+	border-width: 1px;
+	border-style: solid;
+	border-color:#C7C7C7;
+	border-radius: 50%;
+}
+
+.test
+{
+	display:block;
+	z-index: 1;
+	width:100%;
+	height:100%;
+	position: relative;
+	cursor: default;
+	pointer-events:none;
+}
+
+.activated
+{
+	width:100%;
+	height:100%;
+	background-color: #ffde00 ;
+	position: relative;
+	z-index: 1;
+	display: block;
+	transition: all 0.2s ease 0s;
+}
+
+.aBullet > .activated
+{
+	border-radius: 50%;
+}
+/* end of navbar */
+
+/* First Index Page */
+
+.indexBg
+{
+	background-color: #1b1a25;
+	background: url("../img/bg4b.jpg");
+	background-size: 100% 100%;
+	height:100%;
+	width:100%;
+
+}
+
+.paddingIndex
+{
+	display:flex;
+	align-items: center;
+    justify-content: center;
+    color:white;
+    background: linear-gradient(to top, rgba(23,12,68,0.1), rgba(23,12,68,0.25));
+    height: 100%;
+    width:100%;
+    clear:both; 
+    position:absolute;
+}
+
+.contentIndex
+{
+	width:90em;
+	height:40em;
+	padding-top: 5em;
+	clear:both;
+}
+
+.titleIndex
+{
+	font-size: 8em;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#2541AF, #53DBF6);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	display:none;
+}
+
+.titleIndex2
+{
+	font-size: 8em;
+	font-weight: bolder;
+	background: -webkit-linear-gradient(#2541AF, #53DBF6);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	float:right;
+  	margin-right:7em;
+  	margin-bottom: 0.2em;
+  	display:none;
+  }
+
+
+
+.introIndex
+{
+	text-align: left;
+	line-height: 2em;
+	font-size:0.8em;
+	padding-left:27.5em;
+	padding-right:5em;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	color: #a3adb9;
+	font-family: verdana;
+
+}
+
+.firstIntro
+{
+	float:left;
+}
+
+.fTextIntro
+{
+	width:30em;
+	display:none;
+}
+
+.firstText
+{
+	color:white;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.secondIntro
+{
+	float:left;
+	padding-left: 2em;
+}
+
+.sTextIntro
+{
+	width:30em;
+	display:none;
+}
+
+.arrowDiv
+{
+	clear:both; 
+	display:none;
+}
+
+.arrowBtn
+{
+	width:3.5em;
+	height:3.5em;
+	margin-top:14em;
+	margin-left: 35%;
+	-webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+.arrowBtn:hover
+{
+	width:3.8em;
+	height:3.8em;
+}
+
+/* end of first index page */
+
+/* showcase1 excades */
+
+.sc1bg
+{
+	height:100%;
+	width:100%;
+}
+
+.sc1pad
+{
+	padding: 0em;
+}
+
+.sc1content
+{
+	width:25%;
+	padding-top: 9em;
+	padding-right: 7em;
+	float:right;
+	text-align: left;
+}
+
+.titlesc1
+{
+	font-size:4em;
+	font-weight: bolder;
+	font-family: montserrat;
+	color:#121657;
+}
+
+.descsc1
+{
+	font-size:1em;
+	font-family: montserrat;
+	line-height: 3em;
+	color:#9A9A9A;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.sc1img
+{
+	float:left;
+	width:60%;
+}
+
+.sc1imgs
+{
+	width:100%;
+	height:100%;
+}
+
+.sc1Line
+{
+	margin-top: 2em;
+	width:100%;
+	height: 10px;
+    border: 0;
+    box-shadow: inset 0 10px 10px -10px #888888;
+}
+
+.sc1Side
+{
+	padding-left: 1em;
+	padding-top: 3em;
+	font-family: verdana;
+	font-size:0.85em;
+	clear:both; 
+}
+
+.sc1Role
+{
+	padding-bottom: 1em;
+}
+
+.sc1About
+{
+	padding-bottom: 1em;
+}
+
+.sc1ConSide
+{
+	color:#9A9A9A;
+}
+
+.viewBtn
+{
+	text-align: center;
+	border:1px solid #282EAB;
+	padding-top:1em;
+	padding-bottom: 1em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	text-decoration: none;
+	transition: all 1s ease 0s;
+}
+
+.viewBtn:hover
+{
+	background-color: #282EAB;
+	color:#fff;
+}
+
+
+
+.sc1Btn
+{
+	margin-top: 4em;
+	margin-left: 1em;
+	font-family: montserrat;
+	margin-bottom: 2.8em;
+}
+
+/* end showcase1 */
+
+/* showcase2 */
+
+.sc2bg
+{
+	height:100%;
+	width:100%;
+}
+
+.sc2pad
+{
+	padding: 0em;
+}
+
+.sc2content
+{
+	width:25%;
+	padding-top: 9em;
+	padding-left: 9em;
+	float:left;
+}
+
+.sc2Side
+{
+	padding-top: 3em;
+	padding-left: 1em;
+	font-family: verdana;
+	font-size:0.85em;
+	clear:both; 
+}
+
+.sc2img
+{
+	float:right;
+	width:60%;
+}
+
+.sc2imgs
+{
+	width:100%;
+	height:100%;
+	background: black;
+
+}
+
+.sc2Btn
+{
+	margin-top: 4em;
+	font-family: montserrat;
+	margin-bottom: 2.8em;
+	margin-left: 1em;
+}
+
+.viewBtn2
+{
+	text-align: center;
+	border:1px solid #E22222;
+	padding-top:1em;
+	padding-bottom: 1em;
+	padding-left: 2.5em;
+	padding-right: 2.5em;
+	text-decoration: none;
+	transition: all 1s ease 0s;
+	color:#E22222;
+	pointer-events: none;
+   	cursor: default;
+}
+
+.viewBtn2:hover
+{
+	background-color: #E22222;
+	color:#fff;
+}
+
+.sc3img
+{
+	float:left;
+	width:60%;
+}
+
+.sc3Side
+{
+	padding-left: 1em;
+	padding-top: 3em;
+	font-family: verdana;
+	font-size:0.85em;
+	clear:both;
+}
+
+.sc3Btn
+{
+	margin-top: 4em;
+	margin-left: 1em;
+	font-family: montserrat;
+	margin-bottom: 2.8em;
+}
+
+/* end of showcase2*/
+
+/* start of experience screen */
+
+.expbg
+{
+	height:100%;
+	width:100%;
+}
+
+.padexp
+{
+	
+}
+
+.cvImg
+{
+	height:90%;
+}
+
+.cvDiv
+{
+	width:35%;
+	float:left;
+	padding-left: 1%;
+	padding-top: 3%;
+}
+
+.personalbg
+{
+	float: right;
+	width:60%;
+}
+
+.personalImg
+{
+	width:100%;
+	height:100%;
+}
+/* end of experience screen */
+
+/* start contact page */
+
+.contact
+{
+	width:100%;
+	height:100%;
+	background: url("../img/wcont.jpg");
+	background-size: 100% 100%;
+	
+}
+
+.padContact
+{
+	background: linear-gradient(to bottom, rgba(23,12,68,0.1), rgba(23,12,68,0.25));
+	height:100%;
+	width:100%;
+}
+
+.contactComment
+{
+	text-align: center;
+	padding-top: 11%;
+	color:white;
+	padding-bottom: 6em;
+}
+
+.contactTitle
+{
+	font-size:4em;
+	font-family: verdana;
+	padding-bottom: 0.3em;
+	color:#FFE741;
+	font-weight: bold;
+}
+
+.contactCaption
+{
+	font-size: 1.6em;
+	font-family: Montserrat;
+}
+
+.allContact
+{
+	padding-left: 17.5%;
+	padding-right: 17.5%;
+	text-align: center;
+	color:white;
+	font-family:verdana;
+}
+
+.locationContact
+{
+	float:left;
+	width:33%;
+}
+
+.emailContact
+{
+	float:left;
+	width:33%;
+}
+
+.linkedinContact
+{
+	float:left;
+	width:33%;
+}
+
+.fline
+{
+	padding-bottom: 1em;
+	padding-top: 1.5em;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.sLine
+{
+	padding-bottom: 0.4em;
+	font-size:0.75em;
+}
+
+.tLine
+{
+	color:#FFE741;
+	font-size:0.75em;
+
+}
+
+.aline
+{
+	text-decoration: none;
+}
+
+.locationLogo
+{
+	width:3.5em;
+	height:3.5em;
+}
+
+.projectLogo
+{
+	width:3.5em;
+	height:3.5em;
+}
+
+.linkedinLogo
+{
+	width:3.5em;
+	height:3.5em;
+}
+
+.additionContact
+{
+	text-align: center;
+	font-family: verdana;
+	font-size: 0.8em;
+	padding-top: 15%;
+	clear:both;
+}
+
+.tim
+{
+	color:#FFE741;
+	padding-top: 0.9em;
+}
+/* end of contact page */
+
+
+/* about us page */
+
+.coverPhoto
+{
+	width:100%;
+	height:70%;
+	background: url("../img/about1.jpg");
+	background-size: 100% 100%;
+}
+
+.aboutbg
+{
+	width:100%;
+	height:100%;
+}
+
+.padAbout
+{
+	padding-left: 20em;
+	padding-right:17em;
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+.ppImg
+{
+	width:30em;
+	height:30em;
+	border-radius: 15em;
+}
+
+.titleAbout
+{
+	font-family: candal;
+	font-size: 3.5em;
+	font-weight: bold;
+	padding-bottom: 0.6em;
+
+}
+
+.desc1About
+{
+	font-size:1.3em;
+	font-family:verdana;
+	line-height:3em;
+	padding-bottom: 5em;
+}
+
+.titledesc1
+{
+	font-family: candal;
+	font-size: 3.5em;
+	font-weight: bold;
+	padding-bottom: 0.6em;
+}
+
+.desc2About
+{
+	font-size:1.3em;
+	font-family:verdana;
+	line-height:3em;
+	padding-bottom: 5em;
+}
+
+.line2About
+{
+	padding-right: 6em;
+	padding-top: 3em;
+	float:right;
+}
+
+.line3About
+{
+	padding-top: 8em;
+	float:left;
+}
+
+.title3About
+{
+	font-family: candal;
+	font-size: 3.5em;
+	font-weight: bold;
+	padding-bottom: 0.6em;
+}
+
+.desc3About
+{
+	font-size:1.3em;
+	font-family:verdana;
+	line-height:3em;
+	padding-bottom: 5em;
+}
+
+.imgDiv
+{
+	margin-right: 4em;
+	margin-top: 5em;
+	float:right;
+}
+
+.ppDiv
+{
+	float:left;
+}
+/* end of about us page */ 
+
+/* start of project page */
+
+.projectPict
+{
+	width:100%;
+	height:70%;
+	background: url("../img/a3.jpg");
+	background-size: 100% 100%;
+}
+
+.padProject
+{
+	padding-left: 17.5%;
+	padding-right: 17.5%;
+	padding-top: 7%;
+}
+
+.titleProject
+{
+	font-family:Candal;
+	font-size:3em;
+	font-weight: bold;
+}
+
+.personalProject
+{
+	height:50%;
+	width:100%;
+}
+
+.uniProject
+{
+	height:50%;
+	width:100%;
+}
+
+.internProject
+{
+	height:50%;
+	width:100%;
+	padding-bottom: 3em;
+}
+
+.collectionImg
+{
+	width:100%;
+	height:12em;
+}
+
+.collectionImg:hover
+{
+
+}
+
+.personalLine
+{
+	border-top: 3px solid #ccc;
+	margin-top: 1.5em;
+	margin-bottom: 2.5em;
+}
+
+.collectionProject
+{
+	float:left;
+	width:100%;
+}
+
+.project
+{
+	width:30%;
+	height:17em;
+	border:1px solid #F0F0F0;
+	box-shadow: 0px 1px #F0F0F0;
+	margin-right: 2em;
+	float:left;
+}
+
+.titleConProject
+{
+	padding: 1em;
+	font-family: verdana;
+	font-weight: bold;
+	font-size:0.8em;
+}
+
+.descConProject
+{
+	padding-bottom:1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 0em;
+	font-family: verdana;
+	font-size:0.8em;
+	line-height: 2em;
+}
+
+/* end of project page */
+
+/* responsive CSS */
+
+@media(max-width: 1680px){
+	/* index page */
+
+	.titleIndex
+	{
+		margin-left: 6%;
+		font-size: 7.5em;
+	}
+
+	.titleIndex2
+	{
+		margin-right: 60%;
+		font-size: 7.5em;
+	}
+
+	.introIndex
+	{
+		padding-left: 30%;
+	}
+
+	.arrowBtn
+	{
+		margin-left: 30%;
+	}
+
+	/* sc1 */
+
+	.sc1content
+	{
+		padding-top: 5%;
+		padding-right: 5%;
+		width:30%;
+	}
+
+	.titlesc1
+	{
+		font-size: 3em;
+	}
+
+	/* sc2 */ 
+
+	.sc2content
+	{
+		padding-top: 5%;
+		padding-left: 5%;
+		width:30%;
+	}
+
+	/* cv */
+
+	.cvDiv
+	{
+		padding-left: 0%;
+	}
+
+	.personalbg
+	{
+		width:55%;
+	}
+
+	/* project page */
+
+	.projectPict
+	{
+		height:60%;
+	}
+
+	.padProject
+	{
+		padding-left: 12.5%;
+		padding-right: 12.5%;
+	}
+
+	.project
+	{
+		width:30%;
+		margin-bottom: 5em;
+	}
+
+	/* about page */
+
+	.padAbout
+	{
+		padding:12%;
+	}
+
+	.coverPhoto
+	{
+		height:60%;
+	}
+
+	.line2About
+	{
+		padding-right: 5em;
+
+	}
+
+	.titleAbout
+	{
+		font-size:2.8em;
+	}
+
+	.desc1About
+	{
+		font-size: 0.9em;
+	}
+
+	.ppImg
+	{
+		width:70%;
+		height:40%;
+		border-radius: 50%;
+	}
+
+	.titledesc1
+	{
+		font-size: 2.8em;
+	}
+
+	.desc2About
+	{
+		font-size: 0.9em;
+		padding-bottom: 3em;
+	}
+
+	.ppDiv
+	{
+		margin-bottom: 3em;
+		width:50%;
+	}
+
+	.imgDiv
+	{
+		margin-right: 2em;
+		margin-top: 1em;
+		width:50%;
+		text-align: center;
+	}
+
+	.line3About
+	{
+		float:none;
+		padding-top: 3em;
+	}
+
+	.title3About
+	{
+		font-size:2.8em;
+	}
+
+	.desc3About
+	{
+		font-size:0.9em;
+	}
+
+	.imgDiv
+	{
+		margin-bottom: 3em;
+	}
+}
+
+/* small - medium laptop */
+
+@media(max-width: 1439px){
+
+
+	/* index page */
+
+	.titleIndex
+	{
+		margin-left: 6%;
+		font-size: 7.5em;
+	}
+
+	.titleIndex2
+	{
+		margin-right: 5.5em;
+		font-size: 7.5em;
+	}
+
+	.introIndex
+	{
+		padding-left: 30%;
+	}
+
+	.arrowBtn
+	{
+		margin-left: 30%;
+	}
+
+	/* sc1 */
+
+	.sc1content
+	{
+		padding-top: 5%;
+		padding-right: 5%;
+		width:30%;
+	}
+
+	.titlesc1
+	{
+		font-size: 3em;
+	}
+
+	/* sc2 */ 
+
+	.sc2content
+	{
+		padding-top: 5%;
+		padding-left: 5%;
+		width:30%;
+	}
+
+	/* cv */
+
+	.cvDiv
+	{
+		padding-left: 0%;
+	}
+
+	.personalbg
+	{
+		width:50%;
+	}
+
+	/* project page */
+
+	.projectPict
+	{
+		height:60%;
+	}
+
+	.padProject
+	{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.project
+	{
+		width:28%;
+		margin-bottom: 5em;
+	}
+
+	/* about page */
+
+	.padAbout
+	{
+		padding:12%;
+	}
+
+	.coverPhoto
+	{
+		height:60%;
+	}
+
+	.line2About
+	{
+		padding-right: 0em;
+
+	}
+
+	.titleAbout
+	{
+		font-size:2.8em;
+	}
+
+	.desc1About
+	{
+		font-size: 0.9em;
+	}
+
+	.ppImg
+	{
+		width:70%;
+		height:40%;
+		border-radius: 50%;
+	}
+
+	.titledesc1
+	{
+		font-size: 2.8em;
+	}
+
+	.desc2About
+	{
+		font-size: 0.9em;
+		padding-bottom: 3em;
+	}
+
+	.ppDiv
+	{
+		margin-bottom: 3em;
+		width:50%;
+	}
+
+	.imgDiv
+	{
+		margin-right: 0em;
+		margin-top: 1em;
+		width:50%;
+		text-align: center;
+	}
+
+	.line3About
+	{
+		float:none;
+		padding-top: 3em;
+	}
+
+	.title3About
+	{
+		font-size:2.8em;
+	}
+
+	.desc3About
+	{
+		font-size:0.9em;
+	}
+
+	.imgDiv
+	{
+		margin-bottom: 3em;
+	}
+
+}
+
+/* ipad, all tablet landscape and small laptop */
+
+@media (max-width: 1279px){
+
+/* index page */
+
+	.body
+	{
+		overflow: auto;
+	}
+
+	.indexBg
+	{
+		height:100%;
+	}
+
+	.titleIndex
+	{
+		font-size: 5em;
+		width:100%;
+		display:block;
+		margin-bottom: 1%;
+		margin-left: 0%;
+	}
+
+	.titleIndex2
+	{
+		font-size: 5em;
+		float:none;
+		margin-right: 0em;
+		display:block;
+	}
+
+	.paddingIndex
+	{
+		position: relative;
+		display: block;
+		padding: 3%;
+		padding-top: 0%;
+		height:auto;
+		width: auto;
+		background: none;
+	}
+
+	.secondIntro
+	{
+		padding-left: 0em;
+	}
+
+	.introIndex
+	{
+		padding-left: 1.5%;
+		padding-right: 1.5%;
+		font-size: 0.8em;
+		padding-top:2%;
+	}
+
+	.firstIntro
+	{
+		float: none;
+	}
+
+	.contentIndex
+	{
+		width:auto;
+		height: auto;
+		padding-top: 0%;
+	}
+
+	.arrowBtn
+	{
+		margin-top: 2em;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+	.fTextIntro
+	{
+		display:block;
+	}
+
+	.sTextIntro
+	{
+		display: block;
+	}
+
+	.arrowDiv
+	{
+		display: block;
+	}
+
+	/* showcase 1 */
+
+	.sc1content
+	{
+		width:90%;
+		float:none;
+		padding-top: 1em;
+		padding-right: 5%;
+		padding-left: 5%;
+		height:auto;
+	}
+
+	.sc1bg
+	{
+		height:auto;
+	}
+
+	.sc1Line
+	{
+		margin-top: 1em;
+	}
+
+	.titlesc1
+	{
+		font-size:2em;
+	}
+
+	.descsc1
+	{
+		font-size: 0.7em;
+		padding-right: 5%;
+		padding-top: 1em;
+	}
+
+	.sc1img
+	{
+		float:none;
+		width:100%;
+		height:55%;
+	}
+
+	.sc1Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.6em;
+	}
+
+	.sc1Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 5em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn
+	{
+		padding-top: 0.6em;
+		padding-bottom: 0.6em;
+		padding-left: 1.3em;
+		padding-right: 1.3em;
+		font-size: 0.9em;
+	}
+
+	/* end of sc1 */
+
+	/* showcase 2 */
+
+	.sc2content
+	{
+		width:90%;
+		float:none;
+		padding-top: 1em;
+		padding-right: 5%;
+		padding-left: 5%;
+		height:auto;
+	}
+
+	.sc2bg
+	{
+		height: auto;
+	}
+
+	.sc2Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.6em;
+	}
+
+	.sc2Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 5em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn2
+	{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		font-size: 0.9em;
+	}
+
+	.sc2img
+	{
+		float:none;
+		width: 100%;
+		height:55%;
+	}
+
+	/* end of sc2 */
+
+	/* showcase 3 */
+
+	.sc3img
+	{
+		float:none;
+		width:100%;
+		height: 55%;
+		margin-top: 1em;
+	}
+
+	.sc3Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 5em;
+		margin-left: 0.5em;
+	}
+
+
+	.sc3Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.6em;
+	}
+
+	/* end of sc3 */ 
+
+	/* cv screen */
+
+	.personalImg
+	{
+		display: none;
+	}
+
+	.cvDiv
+	{
+		width: 90%;
+		float:none;
+		padding-top: 0%;
+		text-align: center;
+	}
+
+	.cvImg
+	{
+		height: 100%;
+		width: 70%;
+	}
+
+
+	/* end of cv screen */
+
+	/* end of index page */
+
+
+	/* project page */
+
+	.projectPict
+	{
+		height:60%;
+	}
+
+	.padProject
+	{
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	.project
+	{
+		width:45%;
+		margin-bottom: 5em;
+	}
+
+	/* about page */
+
+	.padAbout
+	{
+		padding:10%;
+		text-align: center;
+	}
+
+	.coverPhoto
+	{
+		height:60%;
+	}
+
+	.line2About
+	{
+		padding-right: 0em;
+		float:none;
+
+	}
+
+	.titleAbout
+	{
+		font-size:2.8em;
+	}
+
+	.desc1About
+	{
+		font-size: 0.9em;
+	}
+
+	.ppImg
+	{
+		width:40%;
+		height:40%;
+		border-radius: 50%;
+	}
+
+	.titledesc1
+	{
+		font-size: 2.8em;
+	}
+
+	.desc2About
+	{
+		font-size: 0.9em;
+		padding-bottom: 3em;
+	}
+
+	.ppDiv
+	{
+		margin-bottom: 3em;
+		width:100%;
+	}
+
+	.imgDiv
+	{
+		margin-right: 0em;
+		margin-top: 1em;
+		width:100%;
+	}
+
+	.line3About
+	{
+		float:none;
+		padding-top: 3em;
+	}
+
+	.title3About
+	{
+		font-size:2.8em;
+	}
+
+	.desc3About
+	{
+		font-size:0.9em;
+	}
+
+	.imgDiv
+	{
+		margin-bottom: 3em;
+	}
+
+/* contact page */
+
+
+}
+
+/* ipad and all tablet portrait */
+
+@media (max-width: 1023px){
+
+	/* index page */
+
+	.body
+	{
+		overflow: auto;
+	}
+
+	.indexBg
+	{
+		height:100%;
+	}
+
+	.titleIndex
+	{
+		font-size: 5em;
+		width:100%;
+		display:block;
+		margin-bottom: 3%;
+		margin-left: 0%;
+	}
+
+	.titleIndex2
+	{
+		font-size: 5em;
+		float:none;
+		margin-right: 0em;
+		display: block;
+	}
+
+	.paddingIndex
+	{
+		position: relative;
+		display: block;
+		padding: 3%;
+		height:auto;
+		width: auto;
+	}
+
+	.secondIntro
+	{
+		padding-left: 0em;
+	}
+
+	.introIndex
+	{
+		padding-left: 1.5%;
+		padding-right: 1.5%;
+		font-size: 0.9em;
+		padding-top:5%;
+	}
+
+	.firstIntro
+	{
+		float: none;
+	}
+
+	.fTextIntro
+	{
+		display:block;
+	}
+
+	.sTextIntro
+	{
+		display: block;
+	}
+
+	.contentIndex
+	{
+		width:auto;
+		height: auto;
+		padding-top: 2%;
+	}
+
+	.arrowBtn
+	{
+		margin-top: 1em;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+	.arrowDiv
+	{
+		display: block;
+	}
+
+	/* showcase 1 */
+
+	.sc1content
+	{
+		width:90%;
+		float:none;
+		padding-top: 1em;
+		padding-right: 5%;
+		padding-left: 5%;
+		height:auto;
+	}
+
+	.sc1Line
+	{
+		margin-top: 1em;
+	}
+
+	.titlesc1
+	{
+		font-size:3.5em;
+	}
+
+	.descsc1
+	{
+		font-size: 0.9em;
+		padding-right: 5%;
+		padding-top: 1em;
+	}
+
+	.sc1img
+	{
+		float:none;
+		width:100%;
+		height:50%;
+	}
+
+	.sc1Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.8em;
+	}
+
+	.sc1Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn
+	{
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		font-size: 1em;
+	}
+
+	/* end of sc1 */
+
+	/* showcase 2 */
+
+	.sc2content
+	{
+		width:90%;
+		float:none;
+		padding-top: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+		height:auto;
+	}
+
+	.sc2Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.8em;
+	}
+
+	.sc2Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn2
+	{
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
+		font-size: 1em;
+	}
+
+	.sc2img
+	{
+		float:none;
+		width: 100%;
+		height:50%;
+		margin-top: 2em;
+	}
+
+	/* end of sc2 */
+
+	/* showcase 3 */
+
+	.sc3img
+	{
+		float:none;
+		width:100%;
+		height: 50%;
+		margin-top: 2em;
+	}
+
+	.sc3Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+
+	.sc3Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.8em;
+	}
+
+	/* end of sc3 */ 
+
+	/* cv screen */
+
+	.padexp
+	{
+		margin-top: 2em;
+	}
+
+	.personalImg
+	{
+		display: none;
+	}
+
+	.cvDiv
+	{
+		width: 90%;
+		float:none;
+		padding-top: 0%;
+	}
+
+	.cvImg
+	{
+		height: 80%;
+		width: 100%;
+	}
+
+	.expbg
+	{
+		height:80%;
+	}
+
+	/* end of cv screen */
+
+	/* end of index page */
+
+	/* project page */
+
+	.projectPict
+	{
+		height:60%;
+	}
+
+	.padProject
+	{
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+	}
+
+	.project
+	{
+		width:40%;
+		margin-bottom: 5em;
+	}
+
+
+	/* end of project page*/
+
+	/* about us page */
+
+	.padAbout
+	{
+		padding-left: 10%;
+		padding-right: 9%;
+		padding-top: 10%;
+		padding-bottom: 10%;
+	}
+
+	.imgDiv
+	{
+		float:left;
+	}
+
+	.desc2About
+	{
+		padding-bottom: 0em;
+	}
+
+	.coverPhoto
+	{
+		height:60%;
+	}
+
+	.ppDiv
+	{
+		width:100%;
+	}
+
+	.imgDiv
+	{
+		width:100%;
+	}
+
+	.ppImg
+	{
+		height:17em;
+	}
+
+	/* end of about page*/
+
+
+	/* contact page */
+
+	.contactComment
+	{
+		padding-top: 25%;
+	}
+
+	.allContact
+	{
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+	}
+
+	.additionContact
+	{
+		padding-top: 25%;
+	}
+
+	.contact
+	{
+		height:105%;
+	}
+
+	/* end of contact page */ 
+
+
+}
+
+/* end of tablet css */
+
+/* all landscape mobile */
+
+@media (max-width: 767px){
+
+/* index page */
+
+	.body
+	{
+		overflow: auto;
+	}
+
+	.linav
+	{
+		font-size: 0.7em;
+	}
+
+	.indexBg
+	{
+		height:auto;
+	}
+
+	.titleIndex
+	{
+		font-size: 3em;
+		width:100%;
+		display:block;
+		margin-bottom: 3%;
+		margin-left: 0%;
+	}
+
+	.titleIndex2
+	{
+		font-size: 3em;
+		float:none;
+		margin-right: 0em;
+	}
+
+	.paddingIndex
+	{
+		position: relative;
+		display: block;
+		padding: 3%;
+		height:auto;
+		width: auto;
+	}
+
+	.secondIntro
+	{
+		padding-left: 0em;
+	}
+
+	.introIndex
+	{
+		padding-left: 1.5%;
+		padding-right: 1.5%;
+		font-size: 0.6em;
+		padding-top:7%;
+	}
+
+	.firstIntro
+	{
+		float: none;
+	}
+
+	.contentIndex
+	{
+		width:auto;
+		height: auto;
+		padding-top: 0%;
+	}
+
+	.arrowBtn
+	{
+		margin-top: 2em;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+	/* showcase 1 */
+
+	.sc1content
+	{
+		width:90%;
+		float:none;
+		padding-top: 1em;
+		padding-right: 5%;
+		padding-left: 5%;
+		height:105%;
+	}
+
+	.sc1bg
+	{
+		height:auto;
+	}
+
+	.sc1Line
+	{
+		margin-top: 1em;
+	}
+
+	.titlesc1
+	{
+		font-size:2.4em;
+	}
+
+	.descsc1
+	{
+		font-size: 0.6em;
+		padding-right: 5%;
+		padding-top: 1em;
+	}
+
+	.sc1img
+	{
+		float:none;
+		width:100%;
+		height:60%;
+	}
+
+	.sc1Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.5em;
+	}
+
+	.sc1Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn
+	{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		font-size: 0.8em;
+	}
+
+	/* end of sc1 */
+
+	/* showcase 2 */
+
+	.sc2content
+	{
+		width:90%;
+		float:none;
+		padding-top: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+		height:105%;
+	}
+
+	.sc2bg
+	{
+		height: auto;
+	}
+
+	.sc2Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.5em;
+	}
+
+	.sc2Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn2
+	{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		font-size: 0.8em;
+	}
+
+	.sc2img
+	{
+		float:none;
+		width: 100%;
+		height:60%;
+	}
+
+	/* end of sc2 */
+
+	/* showcase 3 */
+
+	.sc3img
+	{
+		float:none;
+		width:100%;
+		height: 60%;
+		margin-top: 1em;
+	}
+
+	.sc3Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+
+	.sc3Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.5em;
+	}
+
+	/* end of sc3 */ 
+
+	/* cv screen */
+
+	.personalImg
+	{
+		display: none;
+	}
+
+	.cvDiv
+	{
+		width: 90%;
+		float:none;
+		padding-top: 0%;
+		text-align: center;
+	}
+
+	.cvImg
+	{
+		height: 100%;
+		width: 70%;
+	}
+
+	.expbg
+	{
+		height:105%;
+	}
+
+
+	/* end of cv screen */
+
+	/* end of index page */
+
+
+	/* project page  */
+
+	.projectPict
+	{
+		height: 60%;
+	}
+
+	.padProject
+	{
+		padding-left: 20%;
+		padding-right:20%;
+	}
+
+	.titleProject
+	{
+		font-size: 1.5em;
+	}
+
+	.collectionProject
+	{
+		float:none !important;
+	}
+
+	.project
+	{
+		width: 100%;
+		height:14em;
+		margin-bottom: 2em;
+	}
+
+	.collectionImg
+	{
+		height:9em;
+	}
+
+	.personalProject
+	{
+		height:auto;
+	}
+
+	.descConProject
+	{
+		font-size:0.6em;
+	}
+
+/* end of project page */
+
+/* about us page */
+
+	.coverPhoto
+	{
+		height:60%;
+	}
+
+	.ppDiv
+	{
+		width:100%;
+		margin-bottom: 1em;
+	}
+
+	.padAbout
+	{
+		padding-left: 10%;
+		padding-right: 9%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+		text-align: center;
+	}
+
+	.imgDiv
+	{
+		width:100%;
+		margin-bottom: 1em;
+	}
+
+	.titleAbout
+	{
+		font-size:1.5em;
+	}
+
+	.desc1About
+	{
+		font-size:0.6em;
+		line-height: 2.5em;
+		padding-bottom: 1em;
+	}
+
+	.ppImg
+	{
+		width:45%;
+		height:16em;
+		border-radius: 50%;
+		margin-bottom: 1em;
+	}
+
+	.titledesc1
+	{
+		font-size:1.5em;
+	}
+
+	.desc2About
+	{
+		font-size:0.6em;
+		line-height: 2.5em;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+
+	.line2About
+	{
+		padding-right: 0em;
+		padding-top: 1em;
+		float:none !important;
+	}
+
+	.line3About
+	{
+		padding-top: 2em;
+		float:none;
+	}
+
+	.title3About
+	{
+		font-size:1.5em;
+	}
+
+	.desc3About
+	{
+		font-size:0.6em;
+		line-height: 2.5em;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+
+	.imgDiv
+	{
+		margin-top: 1em;
+		margin-right: 0em;
+	}
+
+
+/* end of about page */
+
+
+/* contact page */
+
+	.contact
+	{
+		height:50em;
+	}
+
+	.contactComment
+	{
+		padding-top: 15%;
+		padding-bottom: 2em;
+	}
+
+	.contactTitle
+	{
+		font-size: 2em;
+	}
+
+	.contactCaption
+	{
+		font-size:1em;
+	}
+
+	.locationLogo
+	{
+		width:2em;
+		height:2em;
+	}
+
+	.projectLogo
+	{
+		width: 2em;
+		height: 2em;
+	}
+
+	.linkedinLogo
+	{
+		width: 2em;
+		height: 2em;
+	}
+
+	.fline
+	{
+		font-size:0.6em;
+		padding-top: 1em;
+		padding-bottom: 0.75em;
+	}
+
+	.sline
+	{
+		padding-bottom: 0.3em;
+		font-size: 0.45em;
+	}
+
+	.tLine
+	{
+		font-size: 0.45em;
+	}
+
+	.additionContact
+	{
+		font-size:0.5em;
+	}
+
+	.allContact
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.locationContact
+	{
+		float:none;
+		width:100%;
+		margin-bottom: 2em;
+	}
+
+	.emailContact
+	{
+		float:none;
+		width:100%;
+		margin-bottom: 2em;
+	}
+
+	.linkedinContact
+	{
+		float:none;
+		width:100%;
+	}
+
+/* end of contact page */
+
+}
+
+/* end of landscape mobile */
+
+/* all portrait mobile*/
+@media (max-width: 480px){
+
+	/* index page */
+
+	.body
+	{
+		overflow: auto;
+	}
+
+	.menubar
+	{
+		display: block;
+	}
+
+	.ulnav
+	{
+		margin: 0em;
+		padding: 0em;
+	}
+
+	.linav
+	{
+		display: none;
+	}
+
+	.padnav
+	{
+		padding-right: 0em;
+	}
+
+	.indexBg
+	{
+		height:100%;
+	}
+
+	.titleIndex
+	{
+		font-size: 3em;
+		width:100%;
+		display:block;
+		margin-bottom: 3%;
+		margin-left: 0%;
+	}
+
+	.titleIndex2
+	{
+		font-size: 3em;
+		float:none;
+		margin-right: 0em;
+	}
+
+	.paddingIndex
+	{
+		position: relative;
+		display: block;
+		padding: 3%;
+		height:auto;
+		width: auto;
+	}
+
+	.secondIntro
+	{
+		padding-left: 0em;
+	}
+
+	.introIndex
+	{
+		padding-left: 1.5%;
+		padding-right: 1.5%;
+		font-size: 0.6em;
+		padding-top:7%;
+	}
+
+	.firstIntro
+	{
+		float: none;
+	}
+
+	.contentIndex
+	{
+		width:auto;
+		height: auto;
+		padding-top: 25%;
+	}
+
+	.arrowBtn
+	{
+		margin-top: 2em;
+		text-align: center;
+		margin-left: 0%;
+	}
+
+	/* showcase 1 */
+
+	.sc1content
+	{
+		width:90%;
+		float:none;
+		padding-top: 1em;
+		padding-right: 5%;
+		padding-left: 5%;
+		height:auto;
+	}
+
+	.sc1Line
+	{
+		margin-top: 1em;
+	}
+
+	.titlesc1
+	{
+		font-size:2.4em;
+	}
+
+	.descsc1
+	{
+		font-size: 0.6em;
+		padding-right: 5%;
+		padding-top: 1em;
+	}
+
+	.sc1img
+	{
+		float:none;
+		width:100%;
+		height:30%;
+	}
+
+	.sc1Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.5em;
+	}
+
+	.sc1Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn
+	{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		font-size: 0.8em;
+	}
+
+	/* end of sc1 */
+
+	/* showcase 2 */
+
+	.sc2content
+	{
+		width:90%;
+		float:none;
+		padding-top: 2em;
+		padding-left: 1em;
+		padding-right: 1em;
+		height:auto;
+	}
+
+	.sc2Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.5em;
+	}
+
+	.sc2Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+	.viewBtn2
+	{
+		padding-top: 0.5em;
+		padding-bottom: 0.5em;
+		padding-left: 1.2em;
+		padding-right: 1.2em;
+		font-size: 0.8em;
+	}
+
+	.sc2img
+	{
+		float:none;
+		width: 100%;
+		height:30%;
+		margin-top: 2em;
+	}
+
+	/* end of sc2 */
+
+	/* showcase 3 */
+
+	.sc3img
+	{
+		float:none;
+		width:100%;
+		height: 30%;
+		margin-top: 2em;
+	}
+
+	.sc3Btn
+	{
+		margin-top: 2.5em;
+		margin-bottom: 1em;
+		margin-left: 0.5em;
+	}
+
+
+	.sc3Side
+	{
+		padding-top: 2.5em;
+		font-size: 0.5em;
+	}
+
+	/* end of sc3 */ 
+
+	/* cv screen */
+
+	.padexp
+	{
+		margin-top: 2em;
+	}
+
+	.personalImg
+	{
+		display: none;
+	}
+
+	.cvDiv
+	{
+		width: 90%;
+		float:none;
+		padding-top: 0%;
+	}
+
+	.cvImg
+	{
+		height: 80%;
+		width: 100%;
+	}
+
+	.expbg
+	{
+		height:80%;
+	}
+
+	/* end of cv screen */
+
+	/* end of index page */
+
+	/* project page */
+
+	.projectPict
+	{
+		height: 40%;
+	}
+
+	.padProject
+	{
+		padding-left: 12.5%;
+		padding-right:12.5%;
+	}
+
+	.titleProject
+	{
+		font-size: 1.5em;
+	}
+
+	.collectionProject
+	{
+		float:none !important;
+	}
+
+	.project
+	{
+		width: 100%;
+		height:14em;
+		margin-bottom: 2em;
+	}
+
+	.collectionImg
+	{
+		height:9em;
+	}
+
+	.personalProject
+	{
+		height:auto;
+	}
+
+	.descConProject
+	{
+		font-size:0.6em;
+	}
+
+	/* end of project page */
+
+	/* about page */
+
+	.coverPhoto
+	{
+		height:40%;
+	}
+
+	.padAbout
+	{
+		padding-left: 10%;
+		padding-right: 9%;
+		padding-top: 5%;
+		padding-bottom: 5%;
+	}
+
+	.titleAbout
+	{
+		font-size:1.5em;
+	}
+
+	.desc1About
+	{
+		font-size:0.6em;
+		line-height: 2.5em;
+		padding-bottom: 3em;
+	}
+
+	.ppImg
+	{
+		width:100%;
+		height:45%;
+		border-radius: 50%;
+		margin-bottom: 1em;
+	}
+
+	.titledesc1
+	{
+		font-size:1.5em;
+	}
+
+	.desc2About
+	{
+		font-size:0.6em;
+		line-height: 2.5em;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+
+	.line2About
+	{
+		padding-right: 0em;
+		padding-top: 1em;
+		float:none !important;
+	}
+
+	.line3About
+	{
+		padding-top: 2em;
+	}
+
+	.title3About
+	{
+		font-size:1.5em;
+	}
+
+	.desc3About
+	{
+		font-size:0.6em;
+		line-height: 2.5em;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+
+	.imgDiv
+	{
+		margin-top: 1em;
+		margin-right: 0em;
+		width:100%;
+		margin-bottom: 1em;
+	}
+
+	.ppDiv
+	{
+		width: 100%;
+		margin-bottom: 1em;
+	}
+
+	/* end about page */
+
+	/* contact page */
+
+	.contactComment
+	{
+		padding-top: 35%;
+		padding-bottom: 2em;
+	}
+
+	.contactTitle
+	{
+		font-size: 2em;
+	}
+
+	.contactCaption
+	{
+		font-size:1em;
+	}
+
+	.locationLogo
+	{
+		width:2em;
+		height:2em;
+	}
+
+	.projectLogo
+	{
+		width: 2em;
+		height: 2em;
+	}
+
+	.linkedinLogo
+	{
+		width: 2em;
+		height: 2em;
+	}
+
+	.fline
+	{
+		font-size:0.6em;
+		padding-top: 1em;
+		padding-bottom: 0.75em;
+	}
+
+	.sline
+	{
+		padding-bottom: 0.3em;
+		font-size: 0.45em;
+	}
+
+	.tLine
+	{
+		font-size: 0.45em;
+	}
+
+	.additionContact
+	{
+		font-size:0.5em;
+	}
+
+	.allContact
+	{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.locationContact
+	{
+		float:none;
+		width:100%;
+		margin-bottom: 2em;
+	}
+
+	.emailContact
+	{
+		float:none;
+		width:100%;
+		margin-bottom: 2em;
+	}
+
+	.linkedinContact
+	{
+		float:none;
+		width:100%;
+	}
+
+	.contact
+	{
+		height:115%;
+	}
+
+	/* end of contact page */ 
+
+}
+
+/* End of CSS File */
